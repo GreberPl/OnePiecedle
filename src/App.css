@@ -7,3 +7,34 @@ header{
   padding: 10px;
   text-align: center;
 }
+footer{
+  position: absolute;
+  padding: 10px;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+form{
+  text-align: center;
+  padding: 10px;
+  width: 300px;
+}
+#forms{
+  display: flex;
+  justify-content: center;
+}
+form select{
+  padding: 10px;
+  margin: 10px;
+}
+img{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+.guess{
+  margin: 30px;
+}
+.alfa{
+  background-color: rgb(42, 184, 42);
+}
