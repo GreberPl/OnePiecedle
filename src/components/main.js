@@ -107,6 +107,9 @@ export default function Main() {
                                         </td>
                                     </tr>`
                                     );
+                                    if (count == 5) {
+                                        document.getElementById('forms').innerHTML = '<h1 style="Color:Red;">KONIEC</h1>';
+                                    }
                                     console.log(randomPirate.name, a.name, a.img, a.haki, a.bounty, a.age, a.role, a.devilFruit, a.crew);
                                 }
                             }
